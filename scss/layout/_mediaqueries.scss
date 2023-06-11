@@ -98,3 +98,101 @@
         flex-flow: row wrap;
     }
 }
+/* Mediaqueries para responsive contacto */
+
+@media (max-width:768px) {
+
+    .seccion-contacto {
+        background-color: #EB5160;
+        border: 3px solid violet;
+        border-radius: 3%;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(12, auto);
+        grid-template-areas: 
+        'area1 area16'
+        'area2 area16'
+        'area3 area4'
+        'area5 area6'
+        'area7 area8'
+        'area9 area10'
+        'area11 area11'
+        'area12 area12'
+        'area13 area13'
+        'area14 area14'
+        'area15 area15'
+        'area17 area17'
+        ;
+    }
+
+    .seccion-contacto-info {
+        width: 90%;
+        height: 100%;
+        margin: 3px;
+        padding: 3px;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:480px) {
+
+    .seccion-contacto {
+        background-color: #dfe0e2;
+        border: 3px solid #b7999c;
+        border-radius: 0%;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(17, auto);
+        grid-template-areas: 
+        'area1'
+        'area16'
+        'area2'
+        'area3'
+        'area4'
+        'area5'
+        'area6'
+        'area7'
+        'area8'        
+        'area9'
+        'area10'
+        'area11'
+        'area12'
+        'area13'
+        'area14'
+        'area15'
+        'area17'
+        ;
+    }
+
+    .seccion-contacto-info {
+        margin-left: 10px;
+        width: 90%;
+        height: 100%;
+        font-size: 1.5rem;
+
+    }
+
+    .seccion-contacto-info img {
+        height: 90%;
+        width: 90%;
+        object-fit: cover;
+        border-radius: 10%;
+    }
+
+    .seccion-contacto-info h2 {
+        width: 90%;
+        font-size: 2.4rem;
+        color: #071013;
+        padding: 2px;
+    }
+
+    .seccion-contacto-info p {
+        font-size: 1.5rem;
+    }
+
+    .contenido-17 {
+        grid-area: area17;
+        width: 90%;
+    }
+}

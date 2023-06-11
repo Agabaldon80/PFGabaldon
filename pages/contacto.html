@@ -62,38 +62,51 @@
     
     <main class="cuerpo">
 
-        <section class="seccion-primera-contacto">
-            <h2 class="titulo-contacto"> Contáctanos </h2>
-            <p> 
-                Para nosotros es importante conocer su opinión sobre nuestro trabajo. También le podemos mandar más información sobre nuestros servicios. 
-            </p>
+        <section>
+            <form class="seccion-contacto" action="" method="post" enctype="text/plain">
+            <div class="seccion-contacto-info contenido-1">
+                <h2 class="titulo-contacto"> Contáctanos </h2>
+            </div>
+
+            <div class="seccion-contacto-info contenido-2">
+                <p> 
+                    Para nosotros es importante conocer su opinión sobre nuestro trabajo. También le podemos mandar más información sobre nuestros servicios. 
+                </p>
+            </div>
             
-            <form action="" method="post" enctype="text/plain">
-                <div>
+                <div class="seccion-contacto-info contenido-3">
                     <label for="nombre">Ingrese su nombre: </label>
+                </div>
+                <div class="seccion-contacto-info contenido-4">
                     <input type="text" placeholder= "Nombre" name="nombre">
                 </div>
-            
-                <div>
+                
+                <div class="seccion-contacto-info contenido-5">
                     <label for="apellido">Ingrese su apellido: </label>
+                </div>
+                <div class="seccion-contacto-info contenido-6">
                     <input type="text" placeholder= "Apellido" name="apellido">
                 </div>
             
-                <div>
+                <div class="seccion-contacto-info contenido-7">
                     <label for="telephone">Ingrese su teléfono: </label>
+                </div>
+                <div class="seccion-contacto-info contenido-8">    
                     <input type="tel" placeholder= "Número" name="telephone">
                 </div>
             
-                <div>
+                <div class="seccion-contacto-info contenido-9">
                     <label for="email">Ingrese su email: </label>
+                </div>
+                <div class="seccion-contacto-info contenido-10">    
                     <input type="email" placeholder= "nombre@email.com" name="email">
                 </div>
             
-                <div>
+                <div class="seccion-contacto-info contenido-11">
                     <label for="información">Requiere más información sobre:</label>
                 </div>
             
-                <div>
+                <div class="seccion-contacto-info  contenido-12">
                     <label for="reiki">Reiki</label>
                     <input type="radio" name="reiki" value="Reiki">
                     <label for="tarot">Tarot</label>
@@ -104,22 +117,28 @@
                     <input type="radio" name="todos" value="Todos">
                 </div>
             
-                <div class="ingresar-texto">
+                <div class="seccion-contacto-info  contenido-13 ingresar-texto">
                     <label for="mensaje">Si desea, puede escribir un comentario: </label>
-                    <textarea name="mensaje" cols="50" rows="10" placeholder="Escriba aquí su comentario"></textarea>
+                </div>
+                <div class="seccion-contacto-info contenido-14">
+                    <textarea name="mensaje" cols="30" rows="3" placeholder="Escriba aquí su comentario"></textarea>    
                 </div>
 
-                <div class="boton-enviar">
+                <div  class="seccion-contacto-info contenido-15 boton-enviar">
                     <button type="reset">Resetear</button>
                     <button type="submit">Enviar</button>
                 </div>
 
+                
+                <div class="seccion-contacto-info contenido-16">    
+                    <img src="../images/reiki03.jpg" alt="persona meditando"/>
+                </div>
+                
+                <div class="seccion-contacto-info contenido-17">    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22102.23290957111!2d-58.45475093378809!3d-34.56579335765631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1683324816691!5m2!1ses-419!2sar" width="270" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </form>
-        </section>
-        
-        <section class="seccion-primera-contacto">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22102.23290957111!2d-58.45475093378809!3d-34.56579335765631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1683324816691!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     </main>
