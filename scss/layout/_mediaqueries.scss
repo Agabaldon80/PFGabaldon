@@ -3,24 +3,19 @@
 @media (min-width:768px) and (max-width:1023px) {
     .barra-navegacion {
         height: 60px;
+
+        &-contenido {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+            a {
+                font-size: 1.8rem;
+            }
+        }
     }
 
-    .barra-navegacion-contenido img {
-        width: 40px;
-        height: 40px;
-    }
-    
-    .barra-navegacion-contenido a {
-        font-size: 1.8rem;
-    }
-    
-    .seccion-primera-info h2 {
-        font-size: 3.0rem;
-    }
-    
-    .seccion-primera-info p {
-        font-size: 2.0rem;
-    }
     .seccion-primera {
         background-color: salmon;
         border-radius: 3%;
@@ -33,37 +28,44 @@
         'area6 area7' 
         'area8 area9' 
         ;
+
+        &-info {
+            
+            h2 {
+                font-size: 3.0rem;
+            }
+
+            p {
+                font-size: 2.0rem;
+            }
+        }   
     }
     
     .info-1 , .info-4 , .info-6 , .info-8 {
         background-color: salmon;
     } 
+
     .info-2 , .info-4 , .info-5 , .info-6 , .info-7 , .info-8 , .info-9 {
         border: 3px solid violet;
     } 
-
 }
+
 /* Mediaquery para vista del index en mobile */
 @media (max-width:768px) {
     .barra-navegacion {
         height: 50px;
-    }
 
-    .barra-navegacion-contenido img {
-        width: 30px;
-        height: 30px;
-    }
+        &-contenido {
+            img {
+                width: 30px;
+                height: 30px;
+            }
 
-    .barra-navegacion-contenido a {
-        font-size: 1.3rem;
-    }
+            a {
+                font-size: 1.3rem;
+            }
 
-    .seccion-primera-info h2 {
-        font-size: 2.4rem;
-    }
-    
-    .seccion-primera-info p {
-        font-size: 1.8rem;
+        }
     }
 
     .seccion-primera {
@@ -82,6 +84,17 @@
         'area8'
         'area9' 
         ;
+        
+        &-info {
+
+            h2 {
+                font-size: 2.4rem;
+            }
+         
+            p {
+                font-size: 1.8rem;
+            }
+        }
     }
     
     .info-1 , .info-4 , .info-6 , .info-8 {
@@ -92,12 +105,14 @@
     } 
 
 }
+
 /* Mediaqueries para responsive reiki y meditación */
 @media (max-width:810px) {
     .seccion-segunda-info {
         flex-flow: row wrap;
     }
 }
+
 /* Mediaqueries para responsive contacto */
 
 @media (max-width:768px) {
@@ -124,14 +139,14 @@
         'area15 area15'
         'area17 area17'
         ;
-    }
 
-    .seccion-contacto-info {
-        width: 90%;
-        height: 100%;
-        margin: 3px;
-        padding: 3px;
-        font-size: 1.8rem;
+        &-info {
+            width: 90%;
+            height: 100%;
+            margin: 3px;
+            padding: 3px;
+            font-size: 1.8rem;
+        }
     }
 }
 
@@ -163,32 +178,33 @@
         'area15'
         'area17'
         ;
-    }
 
-    .seccion-contacto-info {
-        margin-left: 10px;
-        width: 90%;
-        height: 100%;
-        font-size: 1.5rem;
+        &-info {
+            margin-left: 10px;
+            width: 90%;
+            height: 100%;
+            font-size: 1.5rem;
+    
+            img {
+                height: 90%;
+                width: 90%;
+                object-fit: cover;
+                border-radius: 10%;
+            }
 
-    }
+            h2 {
+                width: 90%;
+                font-size: 2.4rem;
+                color: #071013;
+                padding: 2px;
+            }
 
-    .seccion-contacto-info img {
-        height: 90%;
-        width: 90%;
-        object-fit: cover;
-        border-radius: 10%;
-    }
+            p {
+                font-size: 1.5rem;
+            }
+        
+        }
 
-    .seccion-contacto-info h2 {
-        width: 90%;
-        font-size: 2.4rem;
-        color: #071013;
-        padding: 2px;
-    }
-
-    .seccion-contacto-info p {
-        font-size: 1.5rem;
     }
 
     .contenido-17 {

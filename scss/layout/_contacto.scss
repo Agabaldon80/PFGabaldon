@@ -1,3 +1,4 @@
+/* seccion contacto */
 .seccion-contacto {
     background-color: #b7999c;
     border: 3px solid violet;
@@ -65,71 +66,79 @@
     }
 }
 
-.contenido-1 {
-    grid-area: area1;
-}
+.contenido {
 
-.contenido-2 {
-    grid-area: area2;
-}
+    &-1 {
+        grid-area: area1;
+    }
+ 
+    &-2 {
+        grid-area: area2;
+    }
 
-.contenido-3 {
-    grid-area: area3;
-}
+    &-3 {
+        grid-area: area3;
+    }
 
-.contenido-4 {
-    grid-area: area4;
-}
+    &-4 {
+        grid-area: area4;
+    }
 
-.contenido-5 {
-    grid-area: area5;
-}
+    &-5 {
+        grid-area: area5;
+    }
 
-.contenido-6 {
-    grid-area: area6;
-}
+    &-6 {
+        grid-area: area6;
+    }
 
-.contenido-7 {
-    grid-area: area7;
-}
+    &-7 {
+        grid-area: area7;
+    }
 
-.contenido-8 {
-    grid-area: area8;
-}
-.contenido-9 {
-    grid-area: area9;
-}
+    &-8 {
+        grid-area: area8;
+    }
 
-.contenido-10 {
-    grid-area: area10;
-}
-.contenido-11 {
-    grid-area: area11;
-}
-.contenido-12 {
-    grid-area: area12;
-    justify-content: space-evenly;
-}
-.contenido-13 {
-    grid-area: area13;
-}
-.contenido-14 {
-    grid-area: area14;
-    padding: 20px;
-    margin: 10px;
-}
-.contenido-15 {
-    grid-area: area15;
-    display: flex;
-    justify-content: end;
-    padding-right: 20px;
-}
-.contenido-16 {
-    grid-area: area16;
-}
-.contenido-17 {
-    grid-area: area17;
-}
+    &-9 {
+        grid-area: area9;
+    }
 
+    &-10 {
+        grid-area: area10;
+    }
 
+    &-11 {
+        grid-area: area11;
+    }
 
+    &-12 {
+        grid-area: area12;
+        justify-content: space-evenly;
+    }
+
+    &-13 {
+        grid-area: area13;
+    }
+
+    &-14 {
+        grid-area: area14;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    &-15 {
+        grid-area: area15;
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+    &-16 {
+        grid-area: area16;
+    }
+
+    &-17 {
+        grid-area: area17;
+    } 
+}

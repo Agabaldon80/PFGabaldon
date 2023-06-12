@@ -33,100 +33,102 @@
         border-radius: 10%;
         margin: 10px;
         padding: 10px;
+
+        img {
+            height: 90%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10%;
+        }
+
+        h2 {
+            font-family: 'Ubuntu';
+            width: 90%;
+            font-size: 3.6rem;
+            align-content:flex-start;
+            text-align: center;
+            color: #dfe0e2;
+            padding: 5px;
+        }
+
+        p {
+            display: flex;
+            flex-direction: column;
+            color: #071013;
+            font-family: 'Roboto';
+            font-size: 2.4rem;
+            width: 90%;
+            height: 60%;
+            text-align: justify;
+        }
+
+        a {
+            font-size: 2.4rem;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+        }     
+    }
+}
+
+.info {
+
+    &-1 {
+        grid-area: area1;
+        background-color: #b7999c;
+        border: none;
+    }
+    
+    &-2 {
+        grid-area: area2;
+        img {
+            align-items: center;
+        }
     }
 
-    &-info img {
-        height: 90%;
-        width: 100%;
-        object-fit: cover;
+    &-3 {
+        grid-area: area3;
+    }
+
+    &-4 {
+        grid-area: area4;
+        background-color: #b7999c;
+        border-radius: 10%;
+        
+    }
+
+    &-5 {
+        grid-area: area5;
+        p {
+            text-align: center;
+        }
+    }
+
+    &-6 {
+        grid-area: area6;
+        background-color: #b7999c;
         border-radius: 10%;
     }
 
-    &-info h2 {
-        font-family: 'Ubuntu';
-        width: 90%;
-        font-size: 3.6rem;
-        align-content:flex-start;
-        text-align: center;
-        color: #dfe0e2;
-        padding: 5px;
+    &-7 {
+        grid-area: area7;
+        p {
+            text-align: center;
+        }
     }
 
-    &-info p {
-        display: flex;
-        flex-direction: column;
-        color: #071013;
-        font-family: 'Roboto';
-        font-size: 2.4rem;
-        width: 90%;
-        height: 60%;
-        text-align: justify;
+    &-8 {
+        grid-area: area8;
+        background-color: #b7999c;
+        border-radius: 10%;
     }
 
-    &-info a {
-        font-size: 2.4rem;
-        align-items: center;
-        padding: 10px;
-        margin: 10px;
-    } 
-
-}
-
-.info-1 {
-    grid-area: area1;
-    background-color: #b7999c;
-    border: none;
-}
-
-.info-2 {
-    grid-area: area2;
-    img {
-        align-items: center;
+    &-9 {
+        grid-area: area9;
+        p {
+            text-align: center;
+        }
     }
 }
 
-
-.info-3 {
-    grid-area: area3;
-}
-
-.info-4 {
-    grid-area: area4;
-    background-color: #b7999c;
-    border-radius: 10%;
-    
-}
-
-.info-5 {
-    grid-area: area5;
-    p {
-        text-align: center;
-    }
-}
-
-.info-6 {
-    grid-area: area6;
-    background-color: #b7999c;
-    border-radius: 10%;
-}
-
-.info-7 {
-    grid-area: area7;
-    p {
-        text-align: center;
-    }
-}
-
-.info-8 {
-    grid-area: area8;
-    background-color: #b7999c;
-    border-radius: 10%;
-}
-
-.info-9 {
-    grid-area: area9;
-    p {
-        text-align: center;
-    }
-}
 

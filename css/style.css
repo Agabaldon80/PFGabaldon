@@ -152,50 +152,42 @@ html {
   background-color: #b7999c;
   border: none;
 }
-
 .info-2 {
   grid-area: area2;
 }
 .info-2 img {
   align-items: center;
 }
-
 .info-3 {
   grid-area: area3;
 }
-
 .info-4 {
   grid-area: area4;
   background-color: #b7999c;
   border-radius: 10%;
 }
-
 .info-5 {
   grid-area: area5;
 }
 .info-5 p {
   text-align: center;
 }
-
 .info-6 {
   grid-area: area6;
   background-color: #b7999c;
   border-radius: 10%;
 }
-
 .info-7 {
   grid-area: area7;
 }
 .info-7 p {
   text-align: center;
 }
-
 .info-8 {
   grid-area: area8;
   background-color: #b7999c;
   border-radius: 10%;
 }
-
 .info-9 {
   grid-area: area9;
 }
@@ -213,7 +205,6 @@ html {
   justify-content: center;
   gap: 10px;
 }
-
 .seccion-segunda-info {
   display: flex;
   flex-flow: row nowrap;
@@ -226,7 +217,6 @@ html {
   border: 3px solid #EB5160;
   border-radius: 10%;
 }
-
 .seccion-segunda-info h2 {
   padding: 10px;
   color: #dfe0e2;
@@ -235,7 +225,6 @@ html {
   text-align: center;
   width: 90%;
 }
-
 .seccion-segunda-info p {
   color: #071013;
   font-family: "Roboto";
@@ -245,7 +234,6 @@ html {
   text-align: justify;
   padding: 10px;
 }
-
 .seccion-segunda-info ol li {
   color: #071013;
   font-family: "Roboto";
@@ -254,7 +242,6 @@ html {
   height: 100%;
   text-align: justify;
 }
-
 .seccion-segunda-info a {
   display: flex;
   flex-direction: column;
@@ -264,8 +251,7 @@ html {
   padding: 10px;
   margin: 10px;
 }
-
-.seccion-segunda img {
+.seccion-segunda-info img {
   width: 90%;
   height: 300px;
   object-fit: cover;
@@ -290,12 +276,20 @@ html {
   font-size: 3.6rem;
   text-align: center;
 }
-
 .tarot-primera p {
   padding: 10px;
   color: #071013;
   font-family: "Roboto";
   font-size: 2rem;
+}
+.tarot-primera a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 2.4rem;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
 }
 
 .cabecera-acordeon button {
@@ -312,85 +306,8 @@ html {
   font-size: 1.8rem;
 }
 
-.tarot-primera a {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-size: 2.4rem;
-  align-items: center;
-  padding: 20px;
-  margin: 10px;
-}
-
-/* Body paginas secundarias */
-.seccion-segunda {
-  background-color: #dfe0e2;
-  min-height: 100vh;
-  max-height: 100%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.seccion-segunda-info {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-  align-content: center;
-  align-items: center;
-  gap: 10px;
-  background-color: #b7999c;
-  padding: 30px;
-  border: 3px solid #EB5160;
-  border-radius: 10%;
-}
-
-.seccion-segunda-info h2 {
-  padding: 10px;
-  color: #dfe0e2;
-  font-family: "Ubuntu";
-  font-size: 3.6rem;
-  text-align: center;
-  width: 90%;
-}
-
-.seccion-segunda-info p {
-  color: #071013;
-  font-family: "Roboto";
-  font-size: 2rem;
-  width: 90%;
-  height: 100%;
-  text-align: justify;
-  padding: 10px;
-}
-
-.seccion-segunda-info ol li {
-  color: #071013;
-  font-family: "Roboto";
-  font-size: 2rem;
-  width: 90%;
-  height: 100%;
-  text-align: justify;
-}
-
-.seccion-segunda-info a {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-size: 2.4rem;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-
-.seccion-segunda img {
-  width: 90%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10%;
-}
-
+/* meditacion igual a body paginas secundarias */
+/* seccion contacto */
 .seccion-contacto {
   background-color: #b7999c;
   border: 3px solid violet;
@@ -445,73 +362,57 @@ html {
 .contenido-1 {
   grid-area: area1;
 }
-
 .contenido-2 {
   grid-area: area2;
 }
-
 .contenido-3 {
   grid-area: area3;
 }
-
 .contenido-4 {
   grid-area: area4;
 }
-
 .contenido-5 {
   grid-area: area5;
 }
-
 .contenido-6 {
   grid-area: area6;
 }
-
 .contenido-7 {
   grid-area: area7;
 }
-
 .contenido-8 {
   grid-area: area8;
 }
-
 .contenido-9 {
   grid-area: area9;
 }
-
 .contenido-10 {
   grid-area: area10;
 }
-
 .contenido-11 {
   grid-area: area11;
 }
-
 .contenido-12 {
   grid-area: area12;
   justify-content: space-evenly;
 }
-
 .contenido-13 {
   grid-area: area13;
 }
-
 .contenido-14 {
   grid-area: area14;
   padding: 20px;
   margin: 10px;
 }
-
 .contenido-15 {
   grid-area: area15;
   display: flex;
   justify-content: end;
   padding-right: 20px;
 }
-
 .contenido-16 {
   grid-area: area16;
 }
-
 .contenido-17 {
   grid-area: area17;
 }
@@ -528,12 +429,6 @@ html {
   .barra-navegacion-contenido a {
     font-size: 1.8rem;
   }
-  .seccion-primera-info h2 {
-    font-size: 3rem;
-  }
-  .seccion-primera-info p {
-    font-size: 2rem;
-  }
   .seccion-primera {
     background-color: salmon;
     border-radius: 3%;
@@ -541,6 +436,12 @@ html {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "area1 area2" "area4 area5" "area6 area7" "area8 area9";
+  }
+  .seccion-primera-info h2 {
+    font-size: 3rem;
+  }
+  .seccion-primera-info p {
+    font-size: 2rem;
   }
   .info-1, .info-4, .info-6, .info-8 {
     background-color: salmon;
@@ -561,12 +462,6 @@ html {
   .barra-navegacion-contenido a {
     font-size: 1.3rem;
   }
-  .seccion-primera-info h2 {
-    font-size: 2.4rem;
-  }
-  .seccion-primera-info p {
-    font-size: 1.8rem;
-  }
   .seccion-primera {
     background-color: #EB5160;
     border-radius: 0%;
@@ -574,6 +469,12 @@ html {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
     grid-template-areas: "area1" "area2" "area4" "area5" "area6" "area7" "area8" "area9";
+  }
+  .seccion-primera-info h2 {
+    font-size: 2.4rem;
+  }
+  .seccion-primera-info p {
+    font-size: 1.8rem;
   }
   .info-1, .info-4, .info-6, .info-8 {
     background-color: #EB5160;
