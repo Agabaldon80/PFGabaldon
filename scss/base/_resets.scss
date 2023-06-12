@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/* Colores */
-/* negro: #071013 ; rosa: #EB5160 ; violeta: #b7999c ; silver:  #aaaaaa ; platino: #dfe0e2 ;*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     font-size: 10px;
 }

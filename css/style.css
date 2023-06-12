@@ -1,12 +1,111 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-/* Colores */
-/* negro: #071013 ; rosa: #EB5160 ; violeta: #b7999c ; silver:  #aaaaaa ; platino: #dfe0e2 ;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
 
+/* Para llamarlo : @include imagenes(0%,0px,cover);*/
+.link-contenedor {
+  gap: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-color-primario {
+  background-color: #EB5160;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-primario:hover {
+  background-color: #c01627;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+.link-color-primario-claro {
+  background-color: salmon;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-primario-claro:hover {
+  background-color: #f7270f;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+.link-color-secundario {
+  background-color: #b7999c;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-secundario:hover {
+  background-color: #896165;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+.link-color-secundario-claro {
+  background-color: violet;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-secundario-claro:hover {
+  background-color: #e228e2;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+.link-color-fuente-oscuro {
+  background-color: #071013;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-fuente-oscuro:hover {
+  background-color: black;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+.link-color-fuente-claro {
+  background-color: #dfe0e2;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-fuente-claro:hover {
+  background-color: #a9acb2;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+.link-color-fondo {
+  background-color: #aaaaaa;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.link-color-fondo:hover {
+  background-color: #777777;
+  box-shadow: 4px 4px 4px 0px #071013;
+}
+
+/* Colores */
+/* negro: #071013 ; rosa: #EB5160 ; violeta: #b7999c ; silver:  #aaaaaa ; platino: #dfe0e2 ;*/
 /* Clases del header  */
 .barra-navegacion {
   width: 100%;
@@ -116,8 +215,8 @@ html {
   padding: 10px;
 }
 .seccion-primera-info img {
-  height: 90%;
-  width: 100%;
+  width: 99%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10%;
 }
@@ -269,6 +368,9 @@ html {
   padding: 10px;
 }
 
+.tarot-primera {
+  padding: 10px;
+}
 .tarot-primera h2 {
   padding: 10px;
   color: #dfe0e2;
@@ -288,8 +390,7 @@ html {
   width: 100%;
   font-size: 2.4rem;
   align-items: center;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
 }
 
 .cabecera-acordeon button {
@@ -425,6 +526,7 @@ html {
   .barra-navegacion-contenido img {
     width: 40px;
     height: 40px;
+    object-fit: 0;
   }
   .barra-navegacion-contenido a {
     font-size: 1.8rem;
@@ -458,6 +560,7 @@ html {
   .barra-navegacion-contenido img {
     width: 30px;
     height: 30px;
+    object-fit: 0;
   }
   .barra-navegacion-contenido a {
     font-size: 1.3rem;
@@ -489,7 +592,7 @@ html {
     flex-flow: row wrap;
   }
 }
-/* Mediaqueries para responsive contacto */
+/* Mediaqueries para responsive contacto tableta */
 @media (max-width: 768px) {
   .seccion-contacto {
     background-color: #EB5160;
@@ -509,6 +612,7 @@ html {
     font-size: 1.8rem;
   }
 }
+/* Mediaqueries para responsive contacto mobile */
 @media (max-width: 480px) {
   .seccion-contacto {
     background-color: #dfe0e2;
@@ -526,8 +630,8 @@ html {
     font-size: 1.5rem;
   }
   .seccion-contacto-info img {
-    height: 90%;
     width: 90%;
+    height: 90%;
     object-fit: cover;
     border-radius: 10%;
   }

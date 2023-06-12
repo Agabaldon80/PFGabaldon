@@ -1,0 +1,72 @@
+
+
+
+
+@mixin imagenes($width,$height,$object) {
+    width: $width;
+    height: $height;
+    object-fit: $object;
+}
+/* Para llamarlo : @include imagenes(0%,0px,cover);*/
+// $color-primario : #EB5160;
+// $color-primario-claro : salmon;
+// $color-secundario : #b7999c;
+// $color-secundario-claro : violet;
+// $color-fuente-oscuro : #071013;
+// $color-fuente-claro : #dfe0e2;
+// $color-fondo : #aaaaaa;
+// Ejemplo de map
+
+$vinculo: (
+    color-primario : #EB5160,
+    color-primario-claro : salmon,
+    color-secundario : #b7999c,
+    color-secundario-claro : violet,
+    color-fuente-oscuro : #071013,
+    color-fuente-claro : #dfe0e2,
+    color-fondo : #aaaaaa,
+);
+
+.link-contenedor {
+    // display: flex;
+    // flex-direction: row;
+// llamar una clase de utilidades con @extend
+    // @extend .d-flex;
+    // @include flex-column;
+    // @include flexbox(row,center,center,wrap,25px);
+    gap: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@each $link, $color in $vinculo{
+    .link-#{$link} {
+        background-color: $color;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: .5s;
+        &:hover {
+            background-color: darken($color, 20%);
+            box-shadow: 4px 4px 4px 0px map-get($vinculo, color-fuente-oscuro);
+        }
+
+        // @if $link == color-primario {
+        //     color: map-get($vinculo, color-fuente-claro);
+        //     &:hover {
+        //         background-color: darken($color, 20%);
+        //         box-shadow: 4px 4px 4px 0px map-get($vinculo, color-fuente-oscuro);
+        //     }
+
+        // } @else {
+        //     color: #eeee;
+        //     &:hover {
+        //         background-color: lighten($color, 20%);
+        //         box-shadow: 4px 4px 4px 0px map-get($vinculo, color-fuente-claro);
+        //     }
+        // }
+    }
+}

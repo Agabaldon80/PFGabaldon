@@ -30,15 +30,13 @@
         justify-content:center;
         align-items:center;
         border: 3px solid salmon;
-        border-radius: 10%;
+        border-radius: $radius-primario;
         margin: 10px;
         padding: 10px;
 
         img {
-            height: 90%;
-            width: 100%;
-            object-fit: cover;
-            border-radius: 10%;
+            @include imagenes(99%,100%,cover);
+            border-radius: $radius-primario;
         }
 
         h2 {
@@ -93,7 +91,7 @@
     &-4 {
         grid-area: area4;
         background-color: #b7999c;
-        border-radius: 10%;
+        border-radius: $radius-primario;
         
     }
 
@@ -107,7 +105,7 @@
     &-6 {
         grid-area: area6;
         background-color: #b7999c;
-        border-radius: 10%;
+        border-radius: $radius-primario;
     }
 
     &-7 {
@@ -120,7 +118,7 @@
     &-8 {
         grid-area: area8;
         background-color: #b7999c;
-        border-radius: 10%;
+        border-radius: $radius-primario;
     }
 
     &-9 {
