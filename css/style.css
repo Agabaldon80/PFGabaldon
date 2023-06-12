@@ -8,7 +8,6 @@ html {
 }
 
 /* Clases del header  */
-/* Clases del header  */
 .barra-navegacion {
   width: 100%;
   height: 70px;
@@ -18,14 +17,12 @@ html {
   background-repeat: repeat;
   background-size: 50%;
 }
-
 .barra-navegacion-contenido img {
   width: 50px;
   height: 50px;
   object-fit: cover;
   border-radius: 50%;
 }
-
 .barra-navegacion-contenido a {
   color: #dfe0e2;
   font-family: "Ubuntu";
@@ -42,20 +39,17 @@ html {
   background-repeat: repeat;
   background-size: 50%;
 }
-
 .cabecera-lateral h1 {
   font-size: 1.5rem;
   color: #dfe0e2;
 }
-
 .cabecera-lateral img {
   width: 30px;
   height: 30px;
   object-fit: cover;
 }
 
-/* Clases del footer */
-.pie-fondo {
+.pie {
   background-image: url("../images/estrellas01.jpg");
   background-position: left;
   background-repeat: repeat;
@@ -63,7 +57,6 @@ html {
   display: flex;
   flex-direction: column;
 }
-
 .pie-frase {
   color: #b7999c;
   font-family: "Ubuntu";
@@ -72,7 +65,6 @@ html {
   font-weight: bold;
   padding: 20px;
 }
-
 .pie-info {
   display: flex;
   flex-wrap: wrap;
@@ -85,16 +77,13 @@ html {
   padding: 20px;
   gap: 10px;
 }
-
 .pie-info ul {
   list-style-type: none;
 }
-
 .pie-info ul li a {
   color: #dfe0e2;
 }
 
-/* Clases del main */
 /* Clases del main */
 .cuerpo {
   background-color: #dfe0e2;
@@ -113,7 +102,6 @@ html {
   padding: 10px;
   grid-template-areas: "area1 area1 area2" "area4 area6 area8" "area5 area7 area9";
 }
-
 .seccion-primera-info {
   width: 95%;
   height: 100%;
@@ -127,14 +115,12 @@ html {
   margin: 10px;
   padding: 10px;
 }
-
 .seccion-primera-info img {
   height: 90%;
   width: 100%;
   object-fit: cover;
   border-radius: 10%;
 }
-
 .seccion-primera-info h2 {
   font-family: "Ubuntu";
   width: 90%;
@@ -144,7 +130,6 @@ html {
   color: #dfe0e2;
   padding: 5px;
 }
-
 .seccion-primera-info p {
   display: flex;
   flex-direction: column;
@@ -155,11 +140,7 @@ html {
   height: 60%;
   text-align: justify;
 }
-
 .seccion-primera-info a {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
   font-size: 2.4rem;
   align-items: center;
   padding: 10px;
@@ -175,7 +156,6 @@ html {
 .info-2 {
   grid-area: area2;
 }
-
 .info-2 img {
   align-items: center;
 }
@@ -193,7 +173,6 @@ html {
 .info-5 {
   grid-area: area5;
 }
-
 .info-5 p {
   text-align: center;
 }
@@ -207,7 +186,6 @@ html {
 .info-7 {
   grid-area: area7;
 }
-
 .info-7 p {
   text-align: center;
 }
@@ -221,12 +199,10 @@ html {
 .info-9 {
   grid-area: area9;
 }
-
 .info-9 p {
   text-align: center;
 }
 
-/* Body paginas secundarias */
 /* Body paginas secundarias */
 .seccion-segunda {
   background-color: #dfe0e2;
@@ -296,7 +272,6 @@ html {
   border-radius: 10%;
 }
 
-/* Body pagina responsive tarot */
 /* Body pagina responsive tarot */
 .contenedor {
   background-color: #EB5160;
@@ -348,7 +323,6 @@ html {
 }
 
 /* Body paginas secundarias */
-/* Body paginas secundarias */
 .seccion-segunda {
   background-color: #dfe0e2;
   min-height: 100vh;
@@ -417,7 +391,6 @@ html {
   border-radius: 10%;
 }
 
-/* Clases contacto */
 .seccion-contacto {
   background-color: #b7999c;
   border: 3px solid violet;
@@ -429,7 +402,6 @@ html {
   padding: 10px;
   grid-template-areas: "area1 area1 area16 area16" "area2 area2 area16 area16" "area3 area4 area16 area16" "area5 area6 area16 area16" "area7 area8 area16 area16" "area9 area10 area16 area16" "area11 area11 area17 area17" "area12 area12 area17 area17" "area13 area13 area17 area17" "area14 area14 area17 area17" "area14 area14 area17 area17" "area15 area15 area17 area17";
 }
-
 .seccion-contacto-info {
   width: 90%;
   height: 100%;
@@ -446,14 +418,12 @@ html {
   height: 100%;
   text-align: justify;
 }
-
 .seccion-contacto-info img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 10%;
 }
-
 .seccion-contacto-info h2 {
   font-family: "Ubuntu";
   width: 90%;
@@ -462,7 +432,6 @@ html {
   color: #dfe0e2;
   padding: 5px;
 }
-
 .seccion-contacto-info p {
   display: flex;
   color: #071013;
@@ -547,62 +516,6 @@ html {
   grid-area: area17;
 }
 
-@media (max-width: 768px) {
-  .seccion-contacto {
-    background-color: #EB5160;
-    border: 3px solid violet;
-    border-radius: 3%;
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(12, auto);
-    grid-template-areas: "area1 area16" "area2 area16" "area3 area4" "area5 area6" "area7 area8" "area9 area10" "area11 area11" "area12 area12" "area13 area13" "area14 area14" "area15 area15" "area17 area17";
-  }
-  .seccion-contacto-info {
-    width: 90%;
-    height: 100%;
-    margin: 3px;
-    padding: 3px;
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 480px) {
-  .seccion-contacto {
-    background-color: #dfe0e2;
-    border: 3px solid #b7999c;
-    border-radius: 0%;
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(17, auto);
-    grid-template-areas: "area1" "area16" "area2" "area3" "area4" "area5" "area6" "area7" "area8" "area9" "area10" "area11" "area12" "area13" "area14" "area15" "area17";
-  }
-  .seccion-contacto-info {
-    margin-left: 10px;
-    width: 90%;
-    height: 100%;
-    font-size: 1.5rem;
-  }
-  .seccion-contacto-info img {
-    height: 90%;
-    width: 90%;
-    object-fit: cover;
-    border-radius: 10%;
-  }
-  .seccion-contacto-info h2 {
-    width: 90%;
-    font-size: 2.4rem;
-    color: #071013;
-    padding: 2px;
-  }
-  .seccion-contacto-info p {
-    font-size: 1.5rem;
-  }
-  .contenido-17 {
-    grid-area: area17;
-    width: 90%;
-  }
-}
-/* Mediaquery para vista del index en tableta */
 /* Mediaquery para vista del index en tableta */
 @media (min-width: 768px) and (max-width: 1023px) {
   .barra-navegacion {

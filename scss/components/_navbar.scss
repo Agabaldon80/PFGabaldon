@@ -7,23 +7,25 @@
     background-position:center;
     background-repeat:repeat;
     background-size: 50%;
+
+    &-contenido img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    &-contenido a {
+        color: #dfe0e2 ;
+        font-family: 'Ubuntu';
+        text-align: center;
+        font-size: 2.4rem;
+        margin: 5px;
+        padding: 5px;   
+    }
 }
 
-.barra-navegacion-contenido img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-}
 
-.barra-navegacion-contenido a {
-    color: #dfe0e2 ;
-    font-family: 'Ubuntu';
-    text-align: center;
-    font-size: 2.4rem;
-    margin: 5px;
-    padding: 5px;   
-}
 
 .cabecera-lateral {
     background-image: url("../images/estrellas02.jpg");
@@ -31,15 +33,26 @@
     background-position:center;
     background-repeat:repeat;
     background-size: 50%;
+
+    h1 {
+        font-size: 1.5rem;
+        color: #dfe0e2;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
 }
 
-.cabecera-lateral h1 {
-    font-size: 1.5rem;
-    color: #dfe0e2;
-}
+// .cabecera-lateral h1 {
+//     font-size: 1.5rem;
+//     color: #dfe0e2;
+// }
 
-.cabecera-lateral img {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-}
+// .cabecera-lateral img {
+//     width: 30px;
+//     height: 30px;
+//     object-fit: cover;
+// }
