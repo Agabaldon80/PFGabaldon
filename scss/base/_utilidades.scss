@@ -8,6 +8,20 @@
     object-fit: $object;
 }
 /* Para llamarlo : @include imagenes(0%,0px,cover);*/
+
+
+@mixin fonts($size,$family,$color,$align) {
+    font-size: $size;
+    font-family: $family;
+    color: $color;
+    text-align: $align;
+}
+
+/* para  llamarlo : @include fonts(24px,$main-font,$light-color);*/
+
+// $font-primaria: 'Roboto';
+// $font-secundaria: 'Ubuntu';
+
 // $color-primario : #EB5160;
 // $color-primario-claro : salmon;
 // $color-secundario : #b7999c;
@@ -54,13 +68,13 @@ $vinculo: (
             box-shadow: 4px 4px 4px 0px map-get($vinculo, color-fuente-oscuro);
         }
 
-        // @if $link == color-primario {
-        //     color: map-get($vinculo, color-fuente-claro);
+        // @if $link == color-fuente-claro {
+        //     color: map-get($vinculo, color-fondo);
         //     &:hover {
         //         background-color: darken($color, 20%);
         //         box-shadow: 4px 4px 4px 0px map-get($vinculo, color-fuente-oscuro);
         //     }
-
+        // }
         // } @else {
         //     color: #eeee;
         //     &:hover {

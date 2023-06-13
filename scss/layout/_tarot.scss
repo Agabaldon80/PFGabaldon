@@ -14,18 +14,14 @@
     padding: 10px;
 
     h2 {
+        @include fonts(3.6rem,$font-secundaria,$color-fuente-claro,center);
         padding: 10px;
-        color: #dfe0e2;
-        font-family: 'Ubuntu';
-        font-size: 3.6rem;
-        text-align: center;
     }
 
     p {
+        @include fonts(2rem,$font-primaria,$color-fuente-oscuro,justify);
         padding: 10px;
-        color: #071013;
-        font-family: 'Roboto';
-        font-size: 2rem;
+
     }
 
     a {
@@ -40,15 +36,12 @@
 
 
 .cabecera-acordeon button {
+    @include fonts(2.4rem,$font-primaria,$color-fuente-oscuro,justify);
     padding: 10px;
-    color: #071013;
-    font-family: 'Roboto';
-    font-size: 2.4rem;
+
 }
 
 .cuerpo-acordeon p {
+    @include fonts(1.8rem,$font-primaria,$color-fuente-oscuro,justify);
     padding: 10px;
-    color: #071013;
-    font-family: 'Roboto';
-    font-size: 1.8rem;
 }
