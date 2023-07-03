@@ -14,7 +14,7 @@
     padding: 10px;
 
     h2 {
-        @include fonts(3.6rem,$font-secundaria,$color-fuente-claro,center);
+        @include fonts(3.6rem,$font-secundaria,$color-fuente-oscuro,center);
         padding: 10px;
     }
 
