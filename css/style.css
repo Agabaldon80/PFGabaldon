@@ -11,8 +11,6 @@ html {
   font-size: 10px;
 }
 
-/* Para llamarlo : @include imagenes(0%,0px,cover);*/
-/* para  llamarlo : @include fonts(24px,$main-font,$light-color);*/
 .link-contenedor {
   gap: 10px;
   width: 50%;
